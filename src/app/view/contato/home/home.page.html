@@ -1,0 +1,34 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title id="titulo">
+      Animals Diario
+    </ion-title>
+    <div class="img-titulo">
+    <img src="assets/icon/icon-animals.png" />
+  </div>
+  <div class="img-titulo3">
+    <img class="background-image2" src="assets/icon/wpp_animals.jpg">
+  </div>
+
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-list *ngFor="let contato of this.listaDeContatos">
+  <ion-item (click)="editar(contato)">
+    <ion-avatar><img src="{{contato.downloadURL}}" /></ion-avatar>
+     <ion-label>{{contato.nome}}</ion-label>
+   
+  </ion-item>
+ 
+  </ion-list>
+
+
+  <ion-fab horizontal="end" color="dark"vertical="bottom">
+    <ion-fab-button color="dark"(click)="irParaCadastrar()" >
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</ion-content>

@@ -1,0 +1,39 @@
+span{
+  color: rgb(72, 0, 255);
+}
+.img-titulo2{
+  width: 30px;
+  height: 20px;
+  color:blue;
+}
+
+.img-body {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.5;
+}
+.img-titulo3{
+width: 100px;
+height: auto;
+
+}
+.background-image2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+}

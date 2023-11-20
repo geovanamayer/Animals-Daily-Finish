@@ -1,0 +1,7 @@
+{
+  "name": "animals-diario",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
